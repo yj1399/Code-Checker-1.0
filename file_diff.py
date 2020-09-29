@@ -135,7 +135,7 @@ def get_diff_files(filename1, filename2):
 	if (diff_list["Addition in AST1"] == []) and (diff_list["Addition in AST2"] == []) and (diff_list["Modification"] == []):
 		return None
 	return diff_list
-
+# comment 
 
 if __name__ == "__main__":
 	result = get_diff_files(sys.argv[1], sys.argv[2])
