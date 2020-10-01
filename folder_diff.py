@@ -27,6 +27,8 @@ files_dir_2_exclusive = []
 
 changes_in_files = []
 
+#first Commit
+
 for folder_name in folder_set_common:
     A = dict1[folder_name]["set"] - dict2[folder_name]["set"]
     B = dict2[folder_name]["set"] - dict1[folder_name]["set"]
